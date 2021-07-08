@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100vh;
+}
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+	text-align: center;
+	background:   url(./images/bg-pattern-top.svg) , url(./images/bg-pattern-bottom.svg) center ;
+	background-color: hsl(185,	75%,	39%);
+}
+.container {
+	width: 300px;
+	height: auto;
+	margin-top: 10%;
+	margin-left: 39%;
+	border-radius: 15px;
+	background-color: white;
+}
+.container1 {
+	 background: url(./images/bg-pattern-card.svg);
+	 height: 130px;
+	 border-top-left-radius: 15px;
+	 border-top-right-radius: 15px;
+	 
+}
+img {
+	border-radius: 50%;
+	margin-top: -50px;
+	border: 5px solid white;
+	
+}
+h1 {
+	font-size: 18px;
+	font-weight: 700;
+	
+
+}
+span {
+	padding-left: 10px;
+	font-weight: 400;
+	color:  hsl(0, 0%, 59%);
+}
+p {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color:  hsl(0, 0%, 59%);
+}
+.container3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+hr {
+	border-color:  hsl(227, 10%, 46%) solid;
+}
+table {
+	margin-left: 40px;
+
+}
+
+table th {
+	padding-right: 30px;
+	margin-left: 30px;
+	line-height: 1.5;
+}
+table td {
+	padding-right: 30px;
+	text-align: center;
+	color:  hsl(0, 0%, 59%);
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 500px){
+	.container {
+		margin-top: 150px;
+		margin-left:30px;
+	}
+	.attribution {
+		margin-left: 5px;
+		text-align: left;
+	}
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
